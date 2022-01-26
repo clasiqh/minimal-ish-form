@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-weight: 300;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+p {
+  margin: 8;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.type {
+  width: 260px;
+  height: 38px;
+  border: 1.6px white solid;
+  border-style: dashed;
+  background-color: unset;
+  color: white;
+  padding-left: 10px;
+}
+
+.type:focus {
+  outline: none;
+  background-color: rgba(240, 248, 255, 0.151);
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.34);
+}
+
+input {
+  margin-top: 10px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  letter-spacing: 2px;
+  border: 1.6px solid white;
+  margin: 5px;
+  height: 38px;
+  width: 69px;
+  border-radius: 4px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(214, 214, 214);
+  color: black;
+}
+
+.side {
+  display: flex;
+  align-items: center;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
